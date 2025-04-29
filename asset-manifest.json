@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/canteen-feedback-pwa/static/css/main.b6408499.css",
+    "main.js": "/canteen-feedback-pwa/static/js/main.3f0824df.js",
+    "index.html": "/canteen-feedback-pwa/index.html",
+    "main.b6408499.css.map": "/canteen-feedback-pwa/static/css/main.b6408499.css.map",
+    "main.3f0824df.js.map": "/canteen-feedback-pwa/static/js/main.3f0824df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6408499.css",
+    "static/js/main.3f0824df.js"
+  ]
+}
