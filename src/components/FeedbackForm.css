@@ -1,0 +1,94 @@
+.feedback-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 90%;
+    max-width: 450px;
+    margin: 2rem auto;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #4f6df5;
+  }
+  
+  .feedback-card h1 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #2e3ca5;
+    margin-bottom: 1rem;
+  }
+  
+  .feedback-card h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .label {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .rating-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .rating-group label {
+    cursor: pointer;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .rating-group input {
+    display: none;
+  }
+  
+  .rating-group span {
+    padding: 6px 10px;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .rating-group input:checked + span {
+    background: #4f6df5;
+    color: white;
+    border-color: #4f6df5;
+  }
+  
+  textarea {
+    width: 100%;
+    min-height: 60px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    border: 2px solid #666;
+    background: #eee;
+    font-weight: bold;
+    font-size: 1rem;
+    resize: none;
+  }
+  
+  button {
+    background: #4f6df5;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #3246c0;
+  }
+  
